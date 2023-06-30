@@ -46,6 +46,8 @@ nav ul li{
     margin: 23px auto;
     border-radius: 12px;
     padding: 34px;
+    background-image: url('17645_1920x1080.jpg');
+    
 }
 .bottom{
     position: sticky;
@@ -66,4 +68,27 @@ nav ul li{
 
 #progressbar{
     width: 80vw;
+}
+
+.songItem{
+    height: 50px;
+    display: flex;
+    background-color: white;
+    width: 80%;
+    margin: 12px 0;
+    color: black;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 34px;
+}
+
+.songItem img{
+    width: 43px;
+    margin: 0 23px;
+    border-radius: 34px;
+    
+}
+
+.timestamp{
+    margin: 0 18px;;
 }
