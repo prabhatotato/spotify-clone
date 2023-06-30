@@ -33,4 +33,37 @@ nav ul li{
     display: flex;
     align-items: center;
     font-weight: bolder;
+    font-size: 1.3rem;
+}
+
+.container{
+    min-height: 75vh ;
+    background-color: black;
+    color: white;
+    font-family: 'Prompt', sans-serif;
+    display: flex;
+    width: 70%;
+    margin: 23px auto;
+    border-radius: 12px;
+    padding: 34px;
+}
+.bottom{
+    position: sticky;
+    height: 130px;
+    background-color: black;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    flex-direction: column;
+    
+}
+
+.icons{
+    margin-top: 14px;
+}
+
+#progressbar{
+    width: 80vw;
 }
