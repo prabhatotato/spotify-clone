@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Flow+Rounded&family=Prompt:wght@300;400;500&display=swap');
 body{
-    background-color: antiquewhite;
+    background-color: rgb(93, 208, 93);
 }
 
 *{
@@ -68,6 +68,7 @@ nav ul li{
 
 #progressbar{
     width: 80vw;
+    cursor: pointer;
 }
 
 .songItem{
@@ -89,6 +90,31 @@ nav ul li{
     
 }
 
+.songinfo{
+    position: absolute;
+    left: 0;
+    display: flex;
+}
+
+#nowplaying p{
+    margin-top: 45px;
+    font-family: 'Prompt', sans-serif;
+
+}
+.songinfo img{
+    inline-size: 12%;
+    margin-left: 9vw;
+    margin-top: 7px;
+    opacity: 0;
+    
+}
+.songitemcontainer{
+    margin-top: 78px;
+}
 .timestamp{
     margin: 0 18px;;
+}
+
+.timestamp i{
+    cursor: pointer;
 }
